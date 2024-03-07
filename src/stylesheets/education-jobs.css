@@ -1,0 +1,259 @@
+.education-intro .primary-button{
+    background-color: blue;
+    color: white !important;
+    font-weight: bold;
+}
+.education-btn a{
+    color: white !important;;
+}
+.education-list{
+    overflow:hidden;
+}
+.education {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius:10px;
+    margin-top: 50px;
+    /* animation: project-animation 10s linear infinite; */
+}
+.education img{
+    height: 220px;
+    width:100%;
+}
+
+.education:hover > .project-content{
+    opacity: 1;
+    transform:scale(1.05);
+    cursor:pointer;
+}
+.education:hover{
+    animation-play-state: paused;
+}
+
+.education-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+.jobs-intro{
+    height: 100vh;
+    background-size: cover;
+    background-position: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jobs-intro-content{
+    width: 50%;
+    color: white;
+    border-left: 5px solid cyan;
+    padding-left: 30px;
+    /* animation: courses-intro-animation 10s linear infinite; */
+}
+.jobs-intro-content h1{
+    font-size: 75px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: cyan;
+    border-bottom: 2px solid white;
+}
+
+.jobs-intro-content p{
+   
+    border-right: 2px solid white;
+}
+.why-trev-parent{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.why-trev{
+    height: 300px;
+    width: 300px;
+    background-color: #001220;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+.why-trev:hover{
+    transform:scale(1.5);
+    background-color:#EBECF0 !important;
+    background: #EBECF0  !important;
+    box-shadow: 5px 5px 0px #cacbce, -5px -5px 0px #ffffff !important;
+    color: black;
+    font-weight: bold !important;
+}
+
+.why-trev:hover > h1{
+    display: none;
+}
+
+.why-trev:hover > .why-trev-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-trev h1{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.why-trev-content{
+    display: none;
+}
+
+
+
+.jobs-list{
+    overflow:hidden;
+}
+.jobs {
+    
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius:10px;
+    margin-top: 50px;
+    /* animation: project-animation 10s linear infinite; */
+}
+.jobs img{
+    height: 220px;
+    width:100%;
+    border-radius: 10px;
+}
+
+.jobs:hover > .jobs-content{
+    opacity: 1;
+    transform:scale(1.05);
+    cursor:pointer;
+}
+.jobs:hover{
+    animation-play-state: paused;
+}
+
+.jobs-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+/* .company-icons {
+    color: rgb(193, 193, 193);
+    font-size: 200px;
+} */
+
+
+
+@media(max-width:750px) {
+    .jobs-intro-content{
+        width: 100%;
+        color: white;
+        border-left: 5px solid cyan;
+        padding: 20px;
+        margin: 20px;
+        border-left: 2px solid white;
+       
+    }
+    .jobs-intro-content h1 {
+        font-size: 35px;
+        -webkit-text-stroke-width: 1px;
+        
+    }
+    .jobs-intro-content p {
+        padding: 10px;
+        
+    }
+}
+
+.company img {
+    height: 120px;
+    width:100%;
+    padding: 20px;
+}
+
+/* .comapny-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+} */
+
+/* @keyframes project-animation {
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes courses-intro-animation {
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    } 
+}*/
