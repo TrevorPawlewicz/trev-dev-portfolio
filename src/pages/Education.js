@@ -12,7 +12,7 @@ function Education() {
         <div className="row flex-with-center mt-5">
           <div className="col-md-6 n-box2 px-3 py-5" data-aos='fade-down'>
             <div>
-              <h1 className="font-bold">Projects</h1>
+              <h1 className="font-bold">Education</h1>
               <p className="font-bold">
                 Good ideas are not adopted automatically. They must be driven
                 into practice with courageous patience
