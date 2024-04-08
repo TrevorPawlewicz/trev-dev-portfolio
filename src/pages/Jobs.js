@@ -17,9 +17,9 @@ function Jobs() {
 
           <div>
             <p>
-              “I can’t teach people everything they need to know. The best I can
-              do is position them where they can find what they need to know
-              when they need to know .”
+              “I have had an incredible journey that began at web development 
+              through user experience and application design. Leading teams with 
+              innovation and cultivating enthusiasm for product creation is a passion.”
             </p>
 
             <button className="primary-button"><a href="#jobs-list">GET STARTED</a></button>
@@ -32,13 +32,9 @@ function Jobs() {
           <h1>Why Trev?</h1>
           <div className="why-trev-content">
             <p>Simple..</p>
-
             <p>I know how to kiss..</p>
-
             <p>No No No....Not that kiss</p>
-
             <p>I know how to</p>
-
             <p>Keep It Straight , Simple</p>
           </div>
         </div>
@@ -58,7 +54,6 @@ function Jobs() {
                     <h3>{job.title}</h3>
                     <hr />
                     <p>{job.description}</p>
-                    <button className="primary-button">DEMO</button>
                   </div>
                 </div>
               </div>

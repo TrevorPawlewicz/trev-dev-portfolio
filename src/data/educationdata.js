@@ -1,45 +1,39 @@
 const educationdata = [
     {
-      title: "Drexel University",
+      title: "Drexel University Master's Degree",
       image: "./images/DrexelUniversity-Logo.svg",
       description:
-        "Words...",
-      link: "/",
+        "Masters of Science in Software Enginerring",
     },
     {
-      title: "General Assembly",
+      title: "General Assembly Santa Monica Cohort",
       image: "./images/GeneralAssembly-Logo.svg",
       description:
-        "Words...",
-      link: "/",
+        "Web Development Immersive",
     },
     {
-      title: "Pennsylvania State University",
+      title: "Pennsylvania State University Bachelor's Degree",
       image: "./images/PennState-Logo.svg",
       description:
-        "Words...",
-      link: "/",
+        "Media Studies | Communications",
     },
     {
-      title: "SHEYJOBS",
-      image: "./images/jobs.svg",
+      title: "Machine Learning/Artificial Inteligence Certificate",
+      image: "./images/ML-AI_Cert_Drexel-Trev.svg",
       description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
+        "Drexel University 2023",
     },
     {
-      title: "SHEYGRAM",
-      image: "./images/socialmedia.svg",
+      title: "Upsilon Pi Epsilon Honor Society",
+      image: "./images/upe-text.svg",
       description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
+        "International Honor Society Member Inductee 2024",
     },
     {
-      title: "SHEYCARS",
-      image: "./images/cars.svg",
+      title: "Software Architecture Certificate",
+      image: "./images/SoftArch_Cert_Drexel-Trev.svg",
       description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
+        "Drexel Univeristy 2022",
     },
   ];
 

@@ -13,11 +13,14 @@ function Education() {
           <div className="col-md-6 n-box2 px-3 py-5" data-aos='fade-down'>
             <div>
               <h1 className="font-bold">Education</h1>
+              <hr/>
               <p className="font-bold">
-                Good ideas are not adopted automatically. They must be driven
-                into practice with courageous patience
+                I am a "perenial student"... I have been drive to keep myself egaged 
+                with learning technology at every step of my career. Recieving my 
+                Masters of Science in Software Engineering at Drexel Univeristy this year
+                with honors is one of my proudest acheivements.
               </p>
-              <button className="primary-button education-btn"><a href="#education-list" className='white'>Get Started</a></button>
+              {/* <button className="primary-button education-btn"><a href="#education-list" className='white'>Get Started</a></button> */}
             </div>
           </div>
 
@@ -40,7 +43,7 @@ function Education() {
 
 
       <div className="container education-list" id='education-list'>
-          <h3 className="font-bold">Education</h3>
+          <h3 className="font-bold">Education | Certificates</h3>
           <hr />
 
           <div className="row">
@@ -52,7 +55,6 @@ function Education() {
                               <h3>{education.title}</h3>
                               <hr />
                               <p>{education.description}</p>
-                              <button className='primary-button'>DEMO</button>
                           </div>
                       </div>
                   </div>

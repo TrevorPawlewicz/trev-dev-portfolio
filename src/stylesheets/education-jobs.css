@@ -3,7 +3,7 @@
     color: white !important;
     font-weight: bold;
 }
-.education-btn a{
+.education-btn a {
     color: white !important;;
 }
 .education-list{
@@ -21,7 +21,7 @@
     width:100%;
 }
 
-.education:hover > .project-content{
+.education:hover > .education-content{
     opacity: 1;
     transform:scale(1.05);
     cursor:pointer;
