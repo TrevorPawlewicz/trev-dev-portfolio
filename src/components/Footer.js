@@ -1,8 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
-  FaFacebook,
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
   FaMailBulk,
 } from "react-icons/fa";
@@ -26,18 +25,31 @@ function Footer() {
               <hr />
 
               <div className="d-flex justify-content-between px-2">
-                {/* <FaFacebook className="footer-icons" />
-                <FaInstagram className="footer-icons" /> */}
-                <FaMailBulk className="footer-icons" />
-                <FaLinkedinIn className="footer-icons" />
-                <FaGithub className="footer-icons" />
+                <a
+                  href={process.env.REACT_APP_TREV_LINKEDIN}
+                  target='_blank'
+                  rel="noopener"
+                  aria-label='LinkedIn'
+                >
+                  <FaLinkedinIn className="footer-icons"/>
+                </a>
+
+                <h3>Trev Dev HQ</h3>
+
+                <a
+                  href={process.env.REACT_APP_TREV_GITHUB}
+                  target='_blank'
+                  rel="noopener"
+                  aria-label='Github'
+                >
+                  <FaGithub className="footer-icons"/>
+                </a>
+
               </div>
 
               <hr />
 
               <br />
-
-              <p>Trev Dev HQ</p>
             </div>
           </div>
         </div>

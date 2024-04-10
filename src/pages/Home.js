@@ -133,8 +133,8 @@ function Home() {
               <p>Defining Requirements</p>
               <p>Designing Product Architecture</p>
               <p>Leading Product Development</p>
-              <p>Testing Products</p>
-              <p>Deployment of Products</p>
+              <p>Leading Agile Teams</p>
+              <p>Overseeing CD/CI Pipelines</p>
             </div>
           </div>
         </div>

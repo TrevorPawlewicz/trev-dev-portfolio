@@ -15,10 +15,10 @@ function Education() {
               <h1 className="font-bold">Education</h1>
               <hr/>
               <p className="font-bold">
-                I am a "perenial student"... I have been drive to keep myself egaged 
-                with learning technology at every step of my career. Recieving my 
-                Masters of Science in Software Engineering at Drexel Univeristy this year
-                with honors is one of my proudest acheivements.
+                I am a "perenial student"... I am driven to keep myself egaged 
+                with constantly learning new technologies at every step of my career. 
+                Recieving my Masters of Science in Software Engineering with honors is
+                one of my proudest acheivements.
               </p>
               {/* <button className="primary-button education-btn"><a href="#education-list" className='white'>Get Started</a></button> */}
             </div>

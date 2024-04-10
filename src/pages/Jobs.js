@@ -31,11 +31,13 @@ function Jobs() {
         <div className="why-trev n-box1 flex-with-center">
           <h1>Why Trev?</h1>
           <div className="why-trev-content">
-            <p>Simple..</p>
-            <p>I know how to kiss..</p>
-            <p>No No No....Not that kiss</p>
-            <p>I know how to</p>
-            <p>Keep It Straight , Simple</p>
+            <h5>My Philosophy is...</h5>
+            <p>Innovate</p>
+            <p>Ideate</p>
+            <p>Collaborate</p>
+            <p>Motivate</p>
+            <p>Communicate</p>
+            <p>Lead By Example</p>
           </div>
         </div>
       </div>
