@@ -45,10 +45,10 @@ function Home() {
         <div className="row justify-content-start">
           <div className="col-md-4">
             <div className="n-box2 p-5 font-bold" data-aos='fade-right'>
-              <h1>Yes you are right...</h1>
+              <h1>Allow me to introduce myself...</h1>
               <br />
               <p>
-                Highly accomplished Lead Software Engineer who achieves 
+                I am a highly accomplished Lead Software Engineer who achieves 
                 exceptional results through leadership and technical expertise. 
                 I have a proven track record of leading the design and 
                 development of complex software projects, resulting in significant 
@@ -143,19 +143,19 @@ function Home() {
        {/* <>--------------------------------------------------------------------------</> */}
 
       <div>
-        <h3 className='font-bold text-center'>Who is Trev</h3>
+        <h2 className='font-bold text-center'><i>Who is Trev?</i></h2>
         <div className="who-is flex-with-center" style={{backgroundImage:`url('/images/whois.svg')`}}>
           
           <div>
-              <h3>Greetings and</h3>
-              <h3>Salutations!</h3>
+              <h3>My Interests and</h3>
+              <h3>Passions...</h3>
               <hr />
               <p><pre>
                 {JSON.stringify({
-                  name:"Trevor Pawlewicz",
-                  from : "San Diego",
-                  age : null,
-                  gender : "Male"
+                  musician:["guitar, bass"],
+                  sport: ["running, cycling"],
+                  art: ["painting, drawing"],
+                  volunteer: ["Special Olympics"],
                 }, null, 2)}
               </pre></p>
           </div>
