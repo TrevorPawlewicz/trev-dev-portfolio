@@ -3,7 +3,7 @@ const educationdata = [
       title: "Drexel University Master's Degree",
       image: "./images/DrexelUniversity-Logo.svg",
       description:
-        "Masters of Science in Software Enginerring",
+        "Masters of Science in Software Enginerring (Graduating in Summer 2024)",
     },
     {
       title: "General Assembly Santa Monica Cohort",
