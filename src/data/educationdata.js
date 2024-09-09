@@ -3,13 +3,13 @@ const educationdata = [
       title: "Drexel University Master's Degree",
       image: "./images/DrexelUniversity-Logo.svg",
       description:
-        "Masters of Science in Software Engineering",
+        "Masters of Business Administration (Graduating Fall 2025)",
     },
     {
-      title: "General Assembly Santa Monica Cohort",
-      image: "./images/GeneralAssembly-Logo.svg",
+      title: "Drexel University Master's Degree",
+      image: "./images/DrexelUniversity-Logo.svg",
       description:
-        "Web Development Immersive",
+        "Masters of Science in Software Engineering",
     },
     {
       title: "Pennsylvania State University Bachelor's Degree",
